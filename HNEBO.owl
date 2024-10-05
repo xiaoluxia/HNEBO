@@ -1,0 +1,557 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/xiaoluxia/ontologies/2024/8/untitled-ontology-5"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/xiaoluxia/ontologies/2024/8/untitled-ontology-5">
+    <Prefix name="" IRI="http://www.semanticweb.org/xiaoluxia/ontologies/2024/8/untitled-ontology-5"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal>The HENBO concerns human non-adaptive behavior during evacuation in building fire emergencies and its influencing factors. The objective of developing the ontology is to establish a knowledge representation model for non-adaptive behavior in building fires. The intended use of the ontology is to support the development of information systems capable of forecasting and intervening in non-adaptive behavior. The expected contributions of this ontology are twofold: 1) to enhance and consolidate knowledge in the field of non-adaptive behavior during building fires, and 2) to provide a knowledge model to support the development of interventions aimed at achieving efficient evacuation of humans during building fires.</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#Age"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Assembly_area"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Building"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Building_function"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Building_layout"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Construction_type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Crowd"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Crowd_density"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Crowd_density_close_to_exits"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Crowd_motives"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Crowd_type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cultural_background"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Doorway_width"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Emergency_light"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Emergency_response"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Emergency_response_plan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Evacuation_distance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Evacuation_time"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Exit_location"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Exit_sign"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Exit_visibility"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Exposure_time"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fire"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fire_alarm_system"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fire_extinguishing_device"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fire_intensity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fire_origin_position"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gender"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Height"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Incident_commander"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Luggage_or_not"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mobility"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Non-adaptive_behavior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Occupant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Remaining_occupant_rate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rescue_response_from_governmental_organizations"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Smoke"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Student_or_not"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Temperature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#The_fire_resistance_of_building_materials"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#The_number_of_exits"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Toxicity_concentration"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Influence"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Influenced_by"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Age"/>
+        <Class IRI="#Occupant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Assembly_area"/>
+        <Class IRI="#Crowd"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Building_function"/>
+        <Class IRI="#Building"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Building_layout"/>
+        <Class IRI="#Building"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Construction_type"/>
+        <Class IRI="#Building"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Crowd_density"/>
+        <Class IRI="#Crowd"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Crowd_density_close_to_exits"/>
+        <Class IRI="#Crowd"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Crowd_motives"/>
+        <Class IRI="#Crowd"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Crowd_type"/>
+        <Class IRI="#Crowd"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cultural_background"/>
+        <Class IRI="#Occupant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Doorway_width"/>
+        <Class IRI="#Building"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Emergency_light"/>
+        <Class IRI="#Building"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Emergency_response_plan"/>
+        <Class IRI="#Emergency_response"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Evacuation_distance"/>
+        <Class IRI="#Building"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Evacuation_time"/>
+        <Class IRI="#Building"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Exit_location"/>
+        <Class IRI="#Building"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Exit_sign"/>
+        <Class IRI="#Building"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Exit_visibility"/>
+        <Class IRI="#Building"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Exposure_time"/>
+        <Class IRI="#Occupant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fire_alarm_system"/>
+        <Class IRI="#Building"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fire_extinguishing_device"/>
+        <Class IRI="#Building"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fire_intensity"/>
+        <Class IRI="#Fire"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fire_origin_position"/>
+        <Class IRI="#Fire"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gender"/>
+        <Class IRI="#Occupant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Height"/>
+        <Class IRI="#Occupant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Incident_commander"/>
+        <Class IRI="#Emergency_response"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Luggage_or_not"/>
+        <Class IRI="#Occupant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mobility"/>
+        <Class IRI="#Occupant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Remaining_occupant_rate"/>
+        <Class IRI="#Crowd"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rescue_response_from_governmental_organizations"/>
+        <Class IRI="#Emergency_response"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Smoke"/>
+        <Class IRI="#Fire"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Student_or_not"/>
+        <Class IRI="#Occupant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Temperature"/>
+        <Class IRI="#Fire"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#The_fire_resistance_of_building_materials"/>
+        <Class IRI="#Building"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#The_number_of_exits"/>
+        <Class IRI="#Building"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Toxicity_concentration"/>
+        <Class IRI="#Fire"/>
+    </SubClassOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#Influence"/>
+        <ObjectProperty IRI="#Influenced_by"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Influence"/>
+        <Class IRI="#Building"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Influence"/>
+        <Class IRI="#Crowd"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Influence"/>
+        <Class IRI="#Emergency_response"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Influence"/>
+        <Class IRI="#Fire"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Influence"/>
+        <Class IRI="#Occupant"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Influenced_by"/>
+        <Class IRI="#Non-adaptive_behavior"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Influence"/>
+        <Class IRI="#Non-adaptive_behavior"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Influenced_by"/>
+        <Class IRI="#Building"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Influenced_by"/>
+        <Class IRI="#Crowd"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Influenced_by"/>
+        <Class IRI="#Emergency_response"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Influenced_by"/>
+        <Class IRI="#Fire"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Influenced_by"/>
+        <Class IRI="#Occupant"/>
+    </ObjectPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Age</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#language">The length of time that a person has lived.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Assembly_area</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#language">An assembly area may be any space or room that allows individuals to gather, which is indoor or outdoor and where person is standing or sitting; Crowd motives are why individuals gather for including social, entertainment, political, religious, economic and confrontation.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Building</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#language">Any enclosed structure with walls and a roof, relatively permanent and stationary.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Building_function</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#language">Building function refers to the purpose of a building or structure including residential buildings, commercial buildings, industrial buildings and other non-residential buildings.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Building_layout</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#language">Building layout refers to the arrangement and positioning of various elements within a structure.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Construction_type</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#language">Construction type can be divided into four major categories: brick-wood structure, brick-concrete structure, reinforced concrete structure, and steel structure Based on the type of materials used in buildings.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Crowd</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#language">A gathering of occupants at the fire scene.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Crowd_density</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#language">Crowd density can be calculated in number of people per square meter.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Crowd_density_close_to_exits</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#language">Crowd density close to exits is the crowd density near exits.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Crowd_type</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#language">Crowd type includes structure and unstructure type based on crowd purpose and dynamics.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Cultural_background</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#language">Cultural background are classified according to geographical regions: Asia, Europe, Africa, Middle East, North America, Oceania, Eurasia (cultures located in the former Soviet Union and Russia), South America.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Doorway_width</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#language">Doorway width is measured from the face of the door leaf to the opposite door frame.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Emergency_light</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#language">An emergency light is a battery-backed lighting device that switches on automatically when a building experiences a power outage.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Emergency_response</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#language">Actions by personnel external to the immediate release area or by other designated responders, including private sector emergency teams, mutual aid groups, local fire departments, or other qualified entities, responding to incidents that could result in an uncontrolled hazardous material release.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Emergency_response_plan</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#language">Emergency response plan is a document that lays out the series of steps your organization will take during a fire.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Evacuation_distance</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#language">Evacuation distance is the distance that must be travelled to reach an emergency exit.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Evacuation_time</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#language">Evacuation time is defined as the elapsed time between the instant that occupants receive an alarm or become aware of a fire and their arrival at a destination where it is normally a safe location inside or outside the building.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Exit_location</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#language">Exit location is the distance from the exit to the fire origin position.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Exit_sign</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#language">Exit sign is a pictogram or short text in a public facility denoting the location of the closest emergency exit to be used in case of fire that requires rapid evacuation.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Exit_visibility</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#language">Exit visibility is defined as the ability of an observer to both see and identify the exit correctly at a distance.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Exposure_time</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#language">Exposure time is the duration of human presence at the fire scene.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Fire</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#language">A rapid oxidation process marked by a gas-phase chemical reaction that emits light and heat in various intensities.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Fire_alarm_system</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#language">Fire alarm system is a unit made of several devices, which uses visual and audio signaling to warn people about a possible fire, smoke, or carbon monoxide occurrence in the area of coverage.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Fire_extinguishing_device</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#language">A fire extinguisher is a handheld active fire protection device.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Fire_intensity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#language">Fire intensity is defined as the rate of heat energy released by the fire.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Fire_origin_position</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#language">Fire origin position is the place where a fire starts.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Gender</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#language">Gender is the male sex or the female sex.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Height</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#language">Height is the measurement of a standing person from head to foot.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Incident_commander</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#language">Incident commander is a person who&apos;s responsible for managing all aspects of incident response.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Luggage_or_not</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#language">Whether a person is carrying luggage.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Mobility</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#language">Mobility is the evacuation personnel&apos;s ability to move during evacuation and is influenced by whether the human is healthy or disabled.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Non-adaptive_behavior</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#language">Actions that can obstruct or impair the efficiency of the evacuation process.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Occupant</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#language">Any individual participating in the fire evacuation process.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Remaining_occupant_rate</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#language">Remaining occupant rate is the percentage of people who have not yet evacuated.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Rescue_response_from_governmental_organizations</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#language">Rescue response from governmental organizations mean that the government provides those responses required such as, but not limited to, ambulance assists, vehicle extrications, high angle rescue, confined space rescue, or trench rescue.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Smoke</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#language">Smoke is a visible suspension of carbon or other particles in air, typically one emitted from a burning substance.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Student_or_not</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#language">Whether a person is a student or not.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Temperature</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#language">Temperature is degree of hotness or coldness measured on a definite scale.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#The_fire_resistance_of_building_materials</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#language">The fire resistance of building materials is calculated based on the time taken by a given building material to fail during a fire.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#The_number_of_exits</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#language">The number of exit is the count of exits in a building.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Toxicity_concentration</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#language">Toxicity concentration is the concentration at which a particular substance produces a toxic effect in fire.</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.7.2018-12-02T02:23:35Z) https://github.com/owlcs/owlapi -->
+
